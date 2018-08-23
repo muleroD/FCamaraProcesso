@@ -8,7 +8,7 @@ ser separados por um espaço em branco
 Exemplo:
 Entrada: 2 13
 Saída: 2 3 5 7 11 13 */
-package start2;
+package exercicio2;
 
 import java.util.Scanner;
 

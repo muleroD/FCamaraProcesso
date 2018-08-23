@@ -6,7 +6,7 @@ Em 2006 ele recebeu aumento de 1,5% sobre seu salário inicial; e
 A partir de 2007, os aumentos salariais sempre corresponderam ao dobro
 do percentual do ano anterior.
 Faça um algoritmo que determine o salário atual deste funcionário. */
-package start1;
+package exercicio1;
 
 import java.util.Scanner;
 
