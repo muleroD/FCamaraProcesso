@@ -20,21 +20,21 @@ public class Teste1 {
 
         Scanner read = new Scanner(System.in);
 
-        int ano = 7, anoAtual;
+        int anoAtual;
         double salario = 1000, porcentagem = 0.015;
 
-        System.out.print("Entre com o ano atual: ");
+        System.out.print("Entre com o ano atual (dois digitos): ");
         anoAtual = read.nextInt();
 
         if (anoAtual < 7) {
             System.out.println("Ano inválido !!!");
         } else {
-            for (int i = ano; i < anoAtual; i++) {
+            for (int i = 7; i <= anoAtual; i++) {
                 porcentagem = porcentagem * 2;
-                salario = salario + (salario * porcentagem);
             }
-            System.out.println("\nSeu salário atual é de:  R$" + Math.round(salario));
-        }
 
+            salario = salario + (salario * porcentagem);
+            System.out.println("\nSeu salário atual é de: R$" + Math.round(salario));
+        }
     }
 }
