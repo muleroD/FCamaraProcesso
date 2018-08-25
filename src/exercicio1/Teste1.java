@@ -23,17 +23,19 @@ public class Teste1 {
         int anoAtual;
         double salario = 1000, porcentagem = 0.015;
 
-        System.out.print("Entre com o ano atual (dois digitos): ");
+        System.out.print("Entre com o ano atual: ");
         anoAtual = read.nextInt();
 
-        if (anoAtual < 7) {
+        //verifica se o ano é abaixo de 2007
+        if (anoAtual < 2007) {
             System.out.println("Ano inválido !!!");
         } else {
-            for (int i = 7; i <= anoAtual; i++) {
+            //caso o ano seja acima de 2007 efetua o calculo da porcentagem e do aumento do salario
+            for (int i = 2007; i <= anoAtual; i++) {
                 porcentagem = porcentagem * 2;
+                salario = salario + salario * porcentagem;
             }
 
-            salario = salario + (salario * porcentagem);
             System.out.println("\nSeu salário atual é de: R$" + Math.round(salario));
         }
     }

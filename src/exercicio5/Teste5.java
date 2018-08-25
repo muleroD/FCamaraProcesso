@@ -48,7 +48,7 @@ public class Teste5 {
 
             switch (opcao) {
                 case 0:
-                    System.out.println("\nObrigado por escolhe nosso banco");
+                    System.out.println("\nObrigado por escolher nosso banco");
                     break;
 
                 case 1:

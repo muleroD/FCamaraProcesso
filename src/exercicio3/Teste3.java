@@ -27,8 +27,13 @@ public class Teste3 {
         System.out.print("Digite o valor do salário mínimo: ");
         sal_min = read.nextInt();
 
+        //calcula valor das horas trabalhadas
         hrsTrabalhadas = sal_min * 0.1;
+        
+        //calcula o salario bruto
         sal_bruto = horaTrabalho * hrsTrabalhadas;
+        
+        //calcula o salario a receber com o desconto do imposto
         sal_receber = sal_bruto - (sal_bruto * 0.03);
 
         System.out.println("\nSalário a receber: R$" + Math.round(sal_receber));

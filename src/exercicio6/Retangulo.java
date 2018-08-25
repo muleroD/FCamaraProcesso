@@ -25,15 +25,11 @@ public class Retangulo {
     }
 
     public void alterarBase(int base) {
-        if (base != 0) {
-            this.base = base;
-        }
+        this.base = base;
     }
 
     public void alterarAltura(int altura) {
-        if (altura != 0) {
-            this.altura = altura;
-        }
+        this.altura = altura;
     }
 
     public int calcArea() {

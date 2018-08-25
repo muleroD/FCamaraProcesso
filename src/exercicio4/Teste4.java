@@ -22,10 +22,12 @@ public class Teste4 {
         System.out.print("Informe o tamanho em metros quadrados da área a ser pintada: ");
         metrosQuad = read.nextInt();
 
+        //calculando a quantidade de tinta que será utilizada
         coberturaTinta = metrosQuad / 3;
 
         System.out.println(Math.round(coberturaTinta) + "L de tinta será utilizado");
 
+        //verifica se precisa de 1 lata ou +
         if (coberturaTinta < 19) {
             System.out.println("1 lata de tinta");
             System.out.println("Total: \tR$" + precoLata);
